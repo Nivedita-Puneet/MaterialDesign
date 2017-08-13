@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MaterialDesign</string>
+    <string name="ripple_effects"> Ripple Effects </string>
+    <string name="ripple_with_border">Ripple With Border</string>
+    <string name="ripple_without_border">Ripple without Border</string>
+    <string name="custom_ripple_with_border">Custom Ripple With Border</string>
+    <string name="custom_ripple_without_border">Custom Ripple Without Border.</string>
+    <string name="smartherd">Smartherd</string>
+    <string name="description">Welcome to Smartherd.\nStay tuned for more tutorials and courses.</string>
+
 </resources>

@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bordered_ripple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:text="@string/ripple_with_border"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/ripple_no_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:text="@string/ripple_without_border"
+        />
+
+    <TextView
+        android:id="@+id/cutom_ripple_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:background="@drawable/custom_ripple"
+        android:text="@string/custom_ripple_with_border"
+        />
+
+    <TextView
+        android:id="@+id/custom_ripple_no_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:background="@drawable/custom_ripple_borderless"
+        android:text="@string/custom_ripple_without_border"
+        />
+
+
 
 </LinearLayout>
