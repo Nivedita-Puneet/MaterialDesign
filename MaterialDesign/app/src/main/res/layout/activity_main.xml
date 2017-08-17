@@ -66,14 +66,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="explodeTransitionByCode"
+            android:id="@+id/explodeTransitionByCode"
             android:text="Java Code"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="explodeTransitionByXML"
+            android:id="@+id/explodeTransitionByXML"
             android:text="XML"/>
 
     </LinearLayout>
@@ -97,15 +97,15 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:id="@+id/slideTransitionByCode"
             android:layout_weight="1"
-            android:onClick="slideTransitionByCode"
             android:text="Java Code"/>
 
         <Button
             android:layout_width="0dp"
+            android:id="@+id/slideTransitionByXML"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="slideTransitionByXML"
             android:text="XML"/>
 
     </LinearLayout>
@@ -130,14 +130,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="fadeTransitionByJava"
+            android:id="@+id/fadeTransitionByCode"
             android:text="Java Code"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:id="@+id/fadeTransitionByXML"
             android:layout_weight="1"
-            android:onClick="fadeTransitionByXML"
             android:text="XML"/>
 
     </LinearLayout>
